@@ -61,8 +61,8 @@ header {
 }
 
 header .user img {
-  height: 17rem;
-  width: 17rem;
+  height: 15rem;
+  width: 15rem;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 1rem;
