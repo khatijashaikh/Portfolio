@@ -26,3 +26,14 @@ $(document).ready(function () {
     );
   });
 });
+
+document.getElementById('email').addEventListener('click', function() {
+  const email = this.innerText;
+  navigator.clipboard.writeText(email).then(() => {
+      alert('Copied to clipboard: ' + email);
+  }).catch(err => {
+      console.error('Error copying text: ', err);
+      alert('Failed to copy email.');
+  });
+});
+

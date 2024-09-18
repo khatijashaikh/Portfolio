@@ -58,6 +58,7 @@ header {
   justify-content: center;
   flex-flow: column;
   text-align: center;
+  overflow: hidden;
 }
 
 header .user img {
@@ -66,6 +67,7 @@ header .user img {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 1rem;
+  margin-top: 3rem;
   border: 0.7rem solid var(--yellow);
 }
 header .user .name {
@@ -252,6 +254,29 @@ header .nav-option ul li a:hover {
   color: #fff;
   background: var(--yellow);
 }
+
+
+
+
+.social-icons {
+  display: flex;
+  justify-content: center; 
+  gap: 15px; 
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  color: #333; 
+  font-size: 35px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: var(--yellow); 
+}
+
+
+
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 .contact .row {
